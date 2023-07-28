@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import Link from "next/link";
 import { IconButton } from "@chakra-ui/react";
@@ -23,13 +25,22 @@ export default function Drawer(props) {
       </div>
 
       <div className="flex flex-col text-center gap-16">
-        <Link href="/about-us" className="text-white font-semibold">
+        <Link
+          href="/about-us"
+          className="text-white text-heading5 hover:text-gray-600"
+        >
           ABOUT US
         </Link>
-        <Link href="/events" className="text-white font-semibold">
+        <Link
+          href="/events"
+          className="text-white text-heading5 hover:text-gray-600"
+        >
           EVENTS
         </Link>
-        <Link href="/events" className="text-white font-semibold">
+        <Link
+          href="/events"
+          className="text-white text-heading5 hover:text-gray-600"
+        >
           CONTACT US
         </Link>
       </div>

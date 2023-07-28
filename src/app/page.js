@@ -1,3 +1,10 @@
+import OurService from "./components/ourService";
+import Layout from "./components/layout";
+
 export default function Home() {
-  return <div className="h-full">testing 123</div>;
+  return (
+    <Layout>
+      <OurService />
+    </Layout>
+  );
 }

@@ -1,7 +1,7 @@
 export default function AboutUsLayout({ children }) {
   return (
-    <html>
-      <body>{children}</body>
+    <html suppressHydrationWarning={true}>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
   );
 }
