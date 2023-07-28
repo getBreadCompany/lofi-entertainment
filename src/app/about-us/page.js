@@ -6,8 +6,8 @@ export default function AboutUs() {
   return (
     <Layout>
       <Link href="/" className="text-white">
-        back
-        
+        backkjjh
+
       </Link>
     </Layout>
   );
