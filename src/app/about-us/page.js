@@ -7,6 +7,7 @@ export default function AboutUs() {
     <Layout>
       <Link href="/" className="text-white">
         back
+        
       </Link>
     </Layout>
   );
